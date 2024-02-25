@@ -1,0 +1,31 @@
+@import "./_header";
+@import "./_footer";
+@import "./_forms";
+
+:root {
+  --container-padding: 300px;
+  --container-width: calc(25% var(--container-padding) / 2);
+  --container-max-width: 1270px;
+}
+
+%container,
+.container {
+  max-width: var(--container-max-width);
+  margin: auto;
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}

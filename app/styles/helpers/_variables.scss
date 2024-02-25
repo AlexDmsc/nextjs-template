@@ -1,0 +1,32 @@
+
+// Couleurs
+$color-primary: #111111;
+$color-secondary: #6c757d;
+$color-success: #28a745;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$color-info: #17a2b8;
+$color-light: #f8f9fa;
+$color-dark: #343a40;
+$color-white: #fff;
+$color-black: #000;
+$color-text: $color-white;
+$color-heading: $color-white;
+
+// Espacements
+$spacer: 1rem;
+$spacer-half: $spacer * 0.5;
+$spacer-double: $spacer * 2;
+
+// Breakpoints pour les media queries
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1440px;
+
+// Bordures
+$border-color: #dee2e6;
+$border-width: 1px;
+

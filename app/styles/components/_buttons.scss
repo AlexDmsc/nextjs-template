@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($color-primary, 10%);
+  }
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: $color-primary;
+  border: 1px solid $color-primary;
+}
+  

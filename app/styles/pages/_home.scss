@@ -1,0 +1,40 @@
+.home-intro {
+  padding: var(--padding) 0;
+  color: $color-text;
+  gap: 10%;
+  display: flex;
+  flex-direction: row;
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+    margin: 0;
+    // gap: 0px;
+    // align-items: left;
+  }
+  h3 {
+    color: $color-heading;
+  }
+  p {
+    color: $color-text;
+  }
+}
+
+.home-intro_personal {
+  width: 50%;
+  p {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  @media (max-width: $breakpoint-md) {
+    width: 80%;
+  }
+}
+
+.home-aside {
+  font-family: $font-secondary;
+}
+
+.home-social_medias {
+  a img {
+    margin-right: 10px;
+  }
+}

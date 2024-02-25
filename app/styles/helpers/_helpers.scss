@@ -1,0 +1,4 @@
+@import './variables'; // Contient toutes les variables globales (couleurs, tailles de police, etc.)
+@import './mixins'; // Mixins pour réutiliser des morceaux de CSS
+@import './functions'; // Fonctions SCSS pour des calculs ou des opérations réutilisables
+@import './placeholders'; // Placeholders pour étendre les sélecteurs communs
